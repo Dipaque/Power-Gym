@@ -38,17 +38,19 @@ li{
     font-size: 17px;
 }
 a.home{
-    display: inline;
+    border:2px #f13131 solid;
+    text-align: center;
+    border-radius:5px;
+    margin-left:48px;
+    display: inline-block;
     text-decoration: none;
     color:#f13131;
-    padding-left:35px;
+    padding:3px;
 }
- /* a.home:hover {
-    border:2px #f13131 solid;
-    padding:2%;
-    width:5px;
-    height:3px;
-  } */
+ a.home:hover {
+    color: black;
+    border-color:black;
+  }
   
   /*@keyframes example {
     0%   {border-color:#f13131; left:0px; top:0px;}
