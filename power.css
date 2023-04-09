@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 .top{
     margin:0;
@@ -16,15 +17,15 @@ body{
 }
 .logo{
     position:static;
-    height:6%;
-    width:8%;
+    height:8%;
+    width:10%;
     margin-top: 3%;
     margin-left: 3%;
 }
-@media(max-width:1028px){
+@media(max-width:1020px){
     .logo{
-height: 6%;
-width:8%;
+height: 16%;
+width:18%;
 
     }
 }
@@ -51,6 +52,10 @@ a.home{
     color: black;
     border-color:black;
   }
+  a.home1{
+    color:#f13131;
+
+  }
   
   /*@keyframes example {
     0%   {border-color:#f13131; left:0px; top:0px;}
@@ -66,12 +71,13 @@ float:right;
 .navbar{
     position:static;
     padding-top:4%;
-    font-size: medium;
+    font-size: larger;
     color:#f13131;
     float:right;
     padding-right:3%;
     visibility: none;
 }
+
 
 .qoute{
     font-family:  'Poppins', sans-serif;
@@ -83,8 +89,8 @@ float:right;
 }
 @media(max-width:1028px){
     .quote{
-        margin-top:5%;
-font-size: 2%;
+        margin-top:8%;
+font-size: 0.9rem;
 
     }
 }
@@ -112,9 +118,9 @@ font-size: 2%;
 .elite:hover{
     transform:scale(1.2);
 }
-@media(max-width:576px){
+@media(max-width:1028px){
     .elite{
-        margin-left:0.3rem;
+        margin-left:0.1rem;
         box-sizing: border-box;
     }
 }
@@ -137,14 +143,14 @@ font-size: 2%;
 .contact{
     font-family: 'Poppins', sans-serif;
     position:relative;
-    left:30%;
-    margin-top:1%;
+    left:15%;
+    margin:1%;
     border:2px #f13131 solid;
     color: #f13131;
     border-radius:15px;
     padding:2%;
     height:3rem;
-    width:40%;
+    width:70%;
     display:block
 }
 input.contact:focus{
@@ -154,20 +160,32 @@ input.contact:focus{
 }
 .contact1{
     position:relative;
-    left:30%;
-    margin-top:1%;
+    left:15%;
+    margin:1%;
     border:2px #f13131 solid;
     color: #f13131;
     border-radius:15px;
     padding:2%;
     height:12rem;
-    width:40%;
+    width:70%;
     display:block
 }
 input.contact1:focus{
     border:2px #f13131 solid;
     outline: #f13131;
     box-shadow:0 0 10px #f13131;
+}
+@media(max-width:1028px){
+    .contact{
+margin:0.7rem;
+
+    }
+}
+@media(max-width:1028px){
+    .contact1{
+margin:0.7rem;
+
+    }
 }
 .submit{
     outline: none;
@@ -178,6 +196,12 @@ input.contact1:focus{
     height:3rem;
     width:25%;
     border-radius: 25px;
+}
+@media(max-width:1028px){
+    .submit{
+width:45%;
+
+    }
 }
 .submit:hover{
     background-color: rgb(214, 18, 18);
