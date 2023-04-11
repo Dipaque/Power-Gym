@@ -48,9 +48,9 @@ a.home{
     color:#f13131;
     padding:3px;
 }
- a.home:hover {
+ a.nav-link:hover {
     color: black;
-    border-color:black;
+
   }
   a.home1{
     color:#f13131;
@@ -70,6 +70,7 @@ float:right;
     background: url("POWER-FAVICON\ cropped_prev_ui.png");
     width: 8rem;
     height: 9rem;
+    margin-left: 0;
     padding-bottom: 0.8rem;
     background-size: contain;
     background-repeat: no-repeat;
@@ -112,7 +113,7 @@ font-size: 0.9rem;
     box-shadow: 0 0 10px #f13131;
 }
 .elite:hover{
-    transform:scale(1.2);
+    transform:scale(1.1);
 }
 @media(max-width:1028px){
     .elite{
@@ -201,6 +202,7 @@ width:45%;
 }
 .submit:hover{
     background-color: rgb(214, 18, 18);
+    outline:rgb(214, 18, 18) ;
 }
 .footer{
     font-family:'Poppins', sans-serif ;
@@ -221,7 +223,7 @@ font-size: 2rem;
     color:#1777EF;
 }
 #instagram:hover{
-   color:aqua;
+   color:#D10000;
 }
 #whatsapp:hover{
     color:#44C854;
