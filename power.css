@@ -202,7 +202,7 @@ width:45%;
 }
 .submit:hover{
     background-color: rgb(214, 18, 18);
-    outline:rgb(214, 18, 18) ;
+    border-color:rgb(214, 18, 18) ;
 }
 .footer{
     font-family:'Poppins', sans-serif ;
