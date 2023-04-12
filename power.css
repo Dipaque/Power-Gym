@@ -120,7 +120,6 @@ font-size: 0.9rem;
 @media(max-width:1028px){
     .elite{
         margin-left:0.0rem;
-        box-sizing: border-box;
     }
 }
 @keyframes grow {
