@@ -110,14 +110,16 @@ font-size: 0.9rem;
     margin-left: 5%;
     margin-right: 5%;
     height:4%;
-    box-shadow: 0 0 10px #f13131;
+    width:30%;
 }
 .elite:hover{
     transform:scale(1.1);
+    box-shadow: 0 0 10px #f13131;
+    
 }
 @media(max-width:1028px){
     .elite{
-        margin-left:0.1rem;
+        margin-left:0.0rem;
         box-sizing: border-box;
     }
 }
