@@ -151,6 +151,11 @@ font-size: 0.9rem;
     width:70%;
     display:block
 }
+/* @media (max-width:1028px) {
+    .contact{
+      margin:0.2rem;  
+    }
+} */
 input.contact:focus{
     border:2px #f13131 solid;
     outline: #f13131;
@@ -198,6 +203,7 @@ margin:0.7rem;
 @media(max-width:1028px){
     .submit{
 width:45%;
+margin:2%;
 
     }
 }
@@ -219,6 +225,10 @@ padding-right:2%;
 color:aliceblue;
 font-size: 2rem;
 
+}
+.location{
+    text-decoration:none;
+    color:aliceblue
 }
 #facebook:hover{
     color:#1777EF;
