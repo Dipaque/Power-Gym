@@ -109,8 +109,8 @@ font-size: 0.9rem;
     border-radius: 7px;
     margin-left: 5%;
     margin-right: 5%;
-    height:4%;
-    width:30%;
+    /* height:4%;
+    width:30%; */
 }
 .elite:hover{
     transform:scale(1.2);
