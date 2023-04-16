@@ -117,9 +117,10 @@ font-size: 0.9rem;
     box-shadow: 0 0 10px #f13131;
     
 }
-@media(max-width:1028px){
+@media(max-width:576px){
     .elite{
-        margin-left:0.0rem;
+        margin-left:25%;
+        width:30%;
     }
 }
 @keyframes grow {
