@@ -84,6 +84,11 @@ float:right;
     color:#f13131;
     font-weight: bold;
 }
+@media(max-width:576px){
+    .blockquote{
+      margin-left: 5%;
+    }
+}
 @media(max-width:1028px){
     .quote{
         margin-top:8%;
@@ -117,7 +122,7 @@ font-size: 0.9rem;
     box-shadow: 0 0 10px #f13131;
     
 }
-@media(max-width:576px){
+@media(max-width:769px){
     .elite{
         margin-left:13%;
         /* width:70%;
@@ -235,7 +240,7 @@ font-size: 2rem;
     color:#44C854;
 }
 
-
+.navbar ul li a:hover {color:#F00F00; text-decoration:none;} 
 /* .dropcontent{
 font-size: 12px;
     display: none;
