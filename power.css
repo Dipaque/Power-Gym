@@ -104,9 +104,9 @@ font-size: 0.9rem;
     transition: transform .7s;
     
 }
-@media(max-width:769px){
+@media(max-width:576px){
     .card{
-        margin-left:6%;
+        margin-left:4%;
         margin-right: 6%;
         /* width:70%;
         height: 50%; */
