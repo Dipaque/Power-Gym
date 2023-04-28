@@ -99,21 +99,18 @@ float:right;
 .card{
     border-radius: 8px;
     box-shadow:0 0 10px #5c5a5a;
-    margin-left: 25%;
-    margin-left:18%;
+    margin-left: 4.5rem;
     transition: transform .7s;
     
 }
 
 @media(max-width:769px){
     .card{
-        margin-left:2%;
-        /* width:70%;
-        height: 50%; */
+        margin-left:3.3rem;
     }
 }
 .classes{
-    background-color:#bebdbd;
+    background-color:lightgray;
     height: 9%;
     padding-top: 1%;
     padding-bottom: 50%;
@@ -123,7 +120,7 @@ float:right;
 .aboutus{
     font-family:  'Poppins', sans-serif;
     padding-top:2%;
-    background-color:#bebdbd;
+    background-color:lightgray;
     color:#f13131;
     width: 100%;
     height:18%;
@@ -155,15 +152,14 @@ float:right;
 @media(max-width:769px){
     .elite{
         margin-left:12%;
-        /* width:70%;
-        height: 50%; */
     }
 }
 
 .contactus{
     font-family: 'Poppins', sans-serif;
     margin:0;
-    background-color:#bebdbd;
+    background-color:lightgray;
+    padding-left:18%;
     color:#f13131;
     width:100%;
     height:8%;
@@ -173,7 +169,7 @@ float:right;
     position:relative;
     left:15%;
     margin:1%;
-    border:2px rgb(151, 147, 147) solid;
+    border:2px #f13131 solid;
     border-radius:15px;
     padding:2%;
     height:3rem;
@@ -194,7 +190,7 @@ input.contact:focus{
     position:relative;
     left:15%;
     margin:1%;
-    border:2px rgb(151, 147, 147) solid;
+    border:2px #f13131 solid;
     border-radius:15px;
     padding:2%;
     height:12rem;
@@ -217,6 +213,9 @@ margin:0.7rem;
 margin:0.7rem;
 
     }
+}
+.btn{
+border-radius: 25px;
 }
 .submit{
     outline: none;
@@ -261,7 +260,7 @@ font-size: 2rem;
 #facebook:hover{
     color:#1777EF;
 }
-#instagram:hover{
+#google:hover{
    color:#D10000;
 }
 #youtube:hover{
