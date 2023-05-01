@@ -110,16 +110,16 @@ float:right;
 .card{
     border-radius: 8px;
     box-shadow:0 0 10px #5c5a5a;
-    margin-left: 4.5rem;
+    margin-left: 18%;
     transition: transform .7s;
     
 }
 
-/* @media(max-width:769px){
+ @media(max-width:576px){
     .card{
-        margin-left:0.0rem;
+        margin-left:6%;
     }
-} */
+} 
 .classes{
     background-color:#f5f5f5;
     height: 9%;
