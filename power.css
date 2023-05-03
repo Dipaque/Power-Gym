@@ -121,17 +121,36 @@ float:right;
     }
 } 
 .classes{
-    background-color:#f5f5f5;
+    background-color:lightgray;
     height: 9%;
     padding-top: 1%;
     padding-bottom: 50%;
     font-family:  'Poppins', sans-serif;
     color:#f13131;
 }
+.card .content{
+align-items: center;
+background-color: #000;
+background-color: var(--background-color);
+bottom: 1px;
+display: flex;
+height: 200px;
+justify-content: center;
+left: 10px;
+opacity: 0;
+padding: 10px;
+position: absolute;
+right: 10px;
+text-align: center;
+transition: .5s;
+}
+*, ::after, ::before {
+box-sizing: border-box;
+}
 .aboutus{
     font-family:  'Poppins', sans-serif;
     padding-top:2%;
-    background-color:#f5f5f5;
+    background-color:lightgray;
     color:#f13131;
     width: 100%;
     height:18%;
@@ -142,11 +161,16 @@ float:right;
     color:#f13131;
     border:1px #c8c5c5 solid;
     transition: transform .7s;
-    background-color: #f5f5f5;
+    background-color: #D4D4D4;
     border-radius: 12px;
     margin-left: 5%;
     margin-right: 5%;
     box-shadow: 0 0 3px #8e8d8d;
+    transition: all .5s ease-in-out;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
     /* height:4%;
     width:30%; */
 }
@@ -158,8 +182,6 @@ float:right;
     background-color: #f13131;
     color:#f5f5f5;
     box-shadow: none;
-
-    
 }
 .navbar .navbar-nav .nav-link.active {
     color: #f13131;
@@ -173,7 +195,7 @@ float:right;
 .contactus{
     font-family: 'Poppins', sans-serif;
     margin:0;
-    background-color:#f5f5f5;
+    background-color:lightgray;
     padding-left:18%;
     color:#f13131;
     width:100%;
@@ -226,6 +248,20 @@ margin:0.7rem;
 }
 .btn{
 border-radius: 25px;
+}
+.ordernow{
+    outline: none;
+    background-color: #f13131;
+    margin-top:2%;
+    color:aliceblue;
+    border:2px #f13131 solid;
+    height:3rem;
+    width:50%;
+    border-radius: 25px;
+}
+ .ordernow:hover{
+    background-color: #f5f5f5;
+    color:#f13131;
 }
 .submit{
     outline: none;
