@@ -3,6 +3,9 @@ body{
     overflow-x: hidden;
     background-color: #D4D4D4;
 }
+.navbar{
+    background-color: transparent;
+}
 .top{
     margin:0;
     background-image: url("power-gym.jpg");
@@ -127,7 +130,7 @@ float:right;
     padding-bottom: 50%;
     font-family:  'Poppins', sans-serif;
     color:#f13131;
-}
+} 
 .card .content{
 align-items: center;
 background-color: #000;
@@ -187,6 +190,7 @@ box-sizing: border-box;
 
 .contactus{
     font-family: 'Poppins', sans-serif;
+    border: 2px #c6c4c4 solid;
     margin:0;
     background-color:#ffff;
     padding-left:18%;
@@ -257,8 +261,9 @@ border-radius: 25px;
     transition-timing-function: ease-in-out;
     transition-delay: 0s;
 }
+
  .ordernow:hover{
-    background-color: #c6c4c4;
+    background-color: #cbcbcb;
     color:#f13131;
     border-color: #c6c4c4;
 }
