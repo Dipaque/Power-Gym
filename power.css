@@ -1,7 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
-    background-color: #D4D4D4;
 }
 .navbar{
     background-color: transparent;
@@ -107,9 +106,8 @@ float:right;
 
  @media(max-width:1208px){
     .card{
-        margin-left:20%;
-        margin-right:20% ;
-        width:90%;
+        margin-left:10%;
+        
     }
 } 
 .classes{
@@ -271,7 +269,6 @@ input.contact1:focus{
 @media(max-width:1028px){
     .contact{
 margin:0.7rem;
-width:70%;
     }
 }
 @media(max-width:1028px){
@@ -327,15 +324,12 @@ margin:2%;
 }
 .footer{
     font-family:'Poppins', sans-serif ;
-    margin:0;
 background-color: #f13131;
 color:aliceblue;
-height:100%;
-width:100%;
+width: 100%;
 }
 .footericon{
 display:inline-block;
-padding-right:2%;
 color:aliceblue;
 font-size: 2rem;
 
@@ -354,7 +348,4 @@ font-size: 2rem;
     color:#0005
 }
 
-.navbar ul li a:hover {color:#F00F00; text-decoration:none;} 
-    .navbar-toggler:focus, .navbar-toggler:hover {
-        text-decoration: none;
-    }
+
