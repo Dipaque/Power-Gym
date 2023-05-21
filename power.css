@@ -99,17 +99,23 @@ float:right;
 }
 .card{
     border-radius: 8px;
-    margin-left: 18%;
+    margin: 18%;
     transition: transform .7s;
     
 }
 
  @media(max-width:1208px){
     .card{
-        margin-left:8%;
+        margin:12%;
         
     }
 } 
+@media(max-width:576px){
+    .card{
+        margin:27%;
+        
+    }
+}
 .classes{
     background-color:#ffff;
     height: 9%;
@@ -217,12 +223,22 @@ float:right;
     }
 }
 .contactform{
-    border:2px solid #f9f9f9;
+    border:2px solid lightgray;
+    margin-left:25%;
+    padding: 2%;
     height:70%;
-    width:30%;
+    width:50%;
     background-color: #ffff;
     border-radius: 20px;
+    
+}
+@media(max-width:1208px){
+    .contactform{
+        margin:5%;
+        width: 90%;
+        height:50%;
 
+    }
 }
 .contactus{
     font-family: 'Poppins', sans-serif;
@@ -231,19 +247,29 @@ float:right;
     color:#f13131;
     width:100%;
     height:8%;
-    /* background: linear-gradient(#fff 60%, #f13131 40%); */
+    /* background: linear-gradient(#fff 70%, #f13131 30%); */
 }
+
 .contact{
     font-family: 'Poppins', sans-serif;
     position:relative;
     left:15%;
-    margin:1%;
-    border:2px #f13131 solid;
-    border-radius:15px;
+    margin-left:8%;
+    margin-bottom: 2%;
+    border:2px solid  #cdcbcb;
+    border-radius: 25px;
     padding:2%;
     height:3rem;
-    width:70%;
+    width:50%;
     display:block
+}
+@media(max-width:1208px){
+    .contact{
+        margin:3%;
+        width: 70%;
+        
+
+    }
 }
 input.contact:focus{
     border:2px #f13131 solid;
@@ -254,12 +280,22 @@ input.contact:focus{
     position:relative;
     left:15%;
     margin:1%;
-    border:2px #f13131 solid;
-    border-radius:15px;
+    border:2px #cdcbcb solid;
+    border-radius:25px;
     padding:2%;
+    margin-left:8%;
+    margin-bottom: 2%;
     height:12rem;
-    width:70%;
+    width:50%;
     display:block
+}
+@media(max-width:1208px){
+    .contact1{
+        margin:3%;
+        width: 70%;
+        
+
+    }
 }
 input.contact1:focus{
     border:2px #f13131 solid;
@@ -305,6 +341,7 @@ border-radius: 25px;
     outline: none;
     background-color: #f13131;
     margin-top:2%;
+    margin-left: 5%;
     color:aliceblue;
     border:2px #f13131 solid;
     height:3rem;
@@ -314,7 +351,7 @@ border-radius: 25px;
 @media(max-width:1028px){
     .submit{
 width:45%;
-margin:2%;
+margin:3%;
 
     }
 }
