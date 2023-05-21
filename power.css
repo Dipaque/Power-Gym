@@ -116,6 +116,12 @@ float:right;
         
     }
 }
+@media(max-width:360px){
+    .dropdown{
+        margin:7%;
+        
+    }
+}
 .classes{
     background-color:#ffff;
     height: 9%;
@@ -219,7 +225,15 @@ float:right;
     .testimonial{
         margin:5%;
         width: 90%;
+        height:50%;
 
+    }
+}
+@media(max-width:360px){
+    .testimonial{
+        width: 90%;
+        height:50%;
+        
     }
 }
 .contactform{
@@ -234,9 +248,27 @@ float:right;
 }
 @media(max-width:1208px){
     .contactform{
+        margin:3%;
+        width: 90%;
+        height:50%;
+
+    }
+}
+@media(max-width:576px){
+    .contactform{
+        margin:3%;
+        width: 90%;
+        height:50%;
+        
+
+    }
+}
+@media(max-width:360px){
+    .contactform{
         margin:5%;
         width: 90%;
         height:50%;
+        
 
     }
 }
@@ -265,8 +297,26 @@ float:right;
 }
 @media(max-width:1208px){
     .contact{
-        margin:3%;
+        margin-left:3%;
         width: 70%;
+        
+
+    }
+}
+@media(max-width:576px){
+    .contact{
+        margin-left:3%;
+        width: 70%;
+        
+
+    }
+}
+@media(max-width:360px){
+    .contact{
+        position: relative;
+        left:1%;
+        margin-left:2%;
+        width: 90%;
         
 
     }
@@ -293,6 +343,26 @@ input.contact:focus{
     .contact1{
         margin:3%;
         width: 70%;
+        
+
+    }
+}
+@media(max-width:576px){
+    .contact1{
+        position: relative;
+        left:10;
+        margin-left:3%;
+        width: 70%;
+        
+
+    }
+}
+@media(max-width:360px){
+    .contact1{
+        position: relative;
+        left:1%;
+        margin-left:1%;
+        width: 90%;
         
 
     }
@@ -351,7 +421,25 @@ border-radius: 25px;
 @media(max-width:1028px){
     .submit{
 width:45%;
-margin:3%;
+margin:5%;
+
+    }
+}
+@media(max-width:576px){
+    .submit{
+        position: relative;
+        left:5%;
+width:45%;
+
+
+    }
+}
+@media(max-width:360px){
+    .submit{
+        position: relative;
+        left:3%;
+width:50%;
+
 
     }
 }
