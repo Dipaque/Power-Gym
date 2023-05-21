@@ -75,16 +75,6 @@ float:right;
     color:#f13131;
     font-weight: bold;
 }
- #arrow{
-    animation-name: example;
-  animation-duration: 3s;  
-  animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
-} 
-@keyframes example {
-    from {left: 0px;}
-    to {left: 50px;}
-  }
 @media(max-width:576px){
     .blockquote{
       margin-left: 5%;
@@ -99,12 +89,11 @@ float:right;
 }
 .card{
     border-radius: 8px;
-    margin: 18%;
     transition: transform .7s;
     
-}
+} 
 
- @media(max-width:1208px){
+  @media(max-width:1208px){
     .card{
         margin:12%;
         
@@ -142,7 +131,6 @@ float:right;
   color:#f13131;
   border-color:rgb(159, 155, 155);
   min-width: 160px;
- /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);*/
   animation:translateX 0.5s;
    
 }
@@ -244,6 +232,7 @@ float:right;
     width:50%;
     background-color: #ffff;
     border-radius: 20px;
+
     
 }
 @media(max-width:1208px){
@@ -279,6 +268,7 @@ float:right;
     color:#f13131;
     width:100%;
     height:8%;
+    
     /* background: linear-gradient(#fff 70%, #f13131 30%); */
 }
 
@@ -286,7 +276,7 @@ float:right;
     font-family: 'Poppins', sans-serif;
     position:relative;
     left:15%;
-    margin-left:8%;
+    margin-left:10%;
     margin-bottom: 2%;
     border:2px solid  #cdcbcb;
     border-radius: 25px;
@@ -333,8 +323,8 @@ input.contact:focus{
     border:2px #cdcbcb solid;
     border-radius:25px;
     padding:2%;
-    margin-left:8%;
-    margin-bottom: 2%;
+    margin-left:10%;
+    margin-bottom: 1%;
     height:12rem;
     width:50%;
     display:block
@@ -385,6 +375,11 @@ margin:0.7rem;
 }
 .btn{
 border-radius: 25px;
+outline: none;
+
+}
+.btn:active{
+outline: #f13131;
 }
 .ordernow{
     outline: none;
@@ -393,7 +388,7 @@ border-radius: 25px;
     color:#f13131;
     border:2px #f5f5f5 solid;
     height:3rem;
-    width:50%;
+    width:75%;
     border-radius: 25px;
     transition: all .5s ease-in-out;
     transition-property: all;
@@ -410,15 +405,13 @@ border-radius: 25px;
 .submit{
     outline: none;
     background-color: #f13131;
-    margin-top:2%;
-    margin-left: 5%;
     color:aliceblue;
     border:2px #f13131 solid;
     height:3rem;
-    width:25%;
+    width:40%;
     border-radius: 25px;
 }
-@media(max-width:1028px){
+/* @media(max-width:1028px){
     .submit{
 width:45%;
 margin:5%;
@@ -428,7 +421,7 @@ margin:5%;
 @media(max-width:576px){
     .submit{
         position: relative;
-        left:5%;
+        left:1%;
 width:45%;
 
 
@@ -442,7 +435,7 @@ width:50%;
 
 
     }
-}
+} */
 .submit:hover{
     background-color: rgb(214, 18, 18);
     border-color:rgb(214, 18, 18) ;
