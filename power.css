@@ -89,16 +89,17 @@ float:right;
 }
 .card{
     border-radius: 8px;
+    margin-left: 15%;
     transition: transform .7s;
     
 } 
 
-  @media(max-width:1208px){
+  /* @media(max-width:1208px){
     .card{
         margin:12%;
         
     }
-} 
+}  */
 @media(max-width:576px){
     .card{
         margin:27%;
