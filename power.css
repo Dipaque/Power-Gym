@@ -275,10 +275,9 @@ float:right;
 
 .contact{
     font-family: 'Poppins', sans-serif;
-    position:relative;
-    left:15%;
-    margin-left:10%;
     margin-bottom: 2%;
+    margin-top: 2%;
+    margin-left: 25%;
     border:2px solid  #cdcbcb;
     border-radius: 25px;
     padding:2%;
@@ -288,7 +287,7 @@ float:right;
 }
 @media(max-width:1208px){
     .contact{
-        margin-left:3%;
+        margin-left: 15%;
         width: 70%;
         
 
@@ -296,7 +295,7 @@ float:right;
 }
 @media(max-width:576px){
     .contact{
-        margin-left:3%;
+       margin-left: 15%; 
         width: 70%;
         
 
@@ -304,9 +303,7 @@ float:right;
 }
 @media(max-width:360px){
     .contact{
-        position: relative;
-        left:1%;
-        margin-left:2%;
+        margin-left: 5%;
         width: 90%;
         
 
@@ -318,21 +315,20 @@ input.contact:focus{
     
 }
 .contact1{
-    position:relative;
-    left:15%;
-    margin:1%;
+    
     border:2px #cdcbcb solid;
     border-radius:25px;
     padding:2%;
-    margin-left:10%;
-    margin-bottom: 1%;
+    margin-top: 2%;;
+    margin-left: 25%;
+    margin-bottom: 2%;
     height:12rem;
     width:50%;
     display:block
 }
 @media(max-width:1208px){
     .contact1{
-        margin:3%;
+        margin-left:15%;
         width: 70%;
         
 
@@ -340,9 +336,7 @@ input.contact:focus{
 }
 @media(max-width:576px){
     .contact1{
-        position: relative;
-        left:10;
-        margin-left:3%;
+        margin-left: 15%;
         width: 70%;
         
 
@@ -350,9 +344,8 @@ input.contact:focus{
 }
 @media(max-width:360px){
     .contact1{
-        position: relative;
-        left:1%;
-        margin-left:1%;
+        
+        margin-left:5%;
         width: 90%;
         
 
@@ -363,17 +356,7 @@ input.contact1:focus{
     outline: #f13131;
     
 }
-@media(max-width:1028px){
-    .contact{
-margin:0.7rem;
-    }
-}
-@media(max-width:1028px){
-    .contact1{
-margin:0.7rem;
-
-    }
-}
+ 
 .btn{
 border-radius: 25px;
 outline: none;
