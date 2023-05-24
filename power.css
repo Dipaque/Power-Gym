@@ -376,17 +376,17 @@ outline: #f13131;
     width:75%;
     padding: 3% 9%;
     border-radius: 25px;
-    transition: all .5s ease-in-out;
+    /* transition: all .5s ease-in-out;
     transition-property: all;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
-    transition-delay: 0s;
+    transition-delay: 0s; */
 }
 
  .ordernow:hover{
-    background-color: #cbcbcb;
+    background-color: #dfdede;
     color:#f13131;
-    border-color: #c6c4c4;
+    border-color: #dfdede;
 }
 .submit{
     outline: none;
