@@ -20,17 +20,10 @@ body{
 }
 .navbartoggler{
     color:#f13131;
+    
 }
-.logo{
-    height:8%;
-    width:10%;
-}
-@media(max-width:1020px){
-    .logo{
-height: 8%;
-width:10%;
-
-    }
+.contactlink:hover{
+    background-color: #D10000;
 }
 li{
     font-family: 'Poppins', sans-serif;
@@ -51,10 +44,6 @@ a.home{
     color:#f13131;
     padding:3px;
 }
- a.nav-link:hover {
-    color: black;
-
-  }
   a.home1{
     color:#f13131;
 
@@ -131,7 +120,7 @@ float:right;
   position: absolute;
   color:#f13131;
   border-color:rgb(159, 155, 155);
-  min-width: 160px;
+  min-width: 100%;
   animation:translateX 0.5s;
    
 }
@@ -366,7 +355,6 @@ outline: none;
 outline: #f13131;
 }
 .ordernow{
-    text-decoration: none;
     outline: none;
     background-color: #f5f5f5;
     margin-top:2%;
@@ -374,7 +362,6 @@ outline: #f13131;
     border:2px #f5f5f5 solid;
     height:3rem;
     width:75%;
-    padding: 3% 9%;
     border-radius: 25px;
     /* transition: all .5s ease-in-out;
     transition-property: all;
@@ -384,7 +371,7 @@ outline: #f13131;
 }
 
  .ordernow:hover{
-    background-color: #dfdede;
+    background-color: #e6e6e6;
     color:#f13131;
     border-color: #dfdede;
 }
