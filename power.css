@@ -82,13 +82,6 @@ float:right;
     transition: transform .7s;
     
 } 
-
-  /* @media(max-width:1208px){
-    .card{
-        margin:12%;
-        
-    }
-}  */
 @media(max-width:576px){
     .card{
         margin:27%;
@@ -136,7 +129,7 @@ float:right;
   
     100% {
       opacity: 0.8;
-      transform: translateX(0px);
+      transform: translateX(-0px);
     }
   }
 
@@ -225,24 +218,15 @@ float:right;
 
     
 }
-@media(max-width:1208px){
+@media(max-width:768px){
     .contactform{
-        margin:3%;
+        margin:5%;
         width: 90%;
         height:50%;
 
     }
 }
 @media(max-width:576px){
-    .contactform{
-        margin:3%;
-        width: 90%;
-        height:50%;
-        
-
-    }
-}
-@media(max-width:360px){
     .contactform{
         margin:5%;
         width: 90%;
@@ -251,6 +235,7 @@ float:right;
 
     }
 }
+
 .contactus{
     font-family: 'Poppins', sans-serif;
     background-color:#ffff;
@@ -259,7 +244,7 @@ float:right;
     width:100%;
     height:8%;
     
-    /* background: linear-gradient(#fff 70%, #f13131 30%); */
+
 }
 
 .contact{
@@ -284,8 +269,8 @@ float:right;
 }
 @media(max-width:576px){
     .contact{
-       margin-left: 15%; 
-        width: 70%;
+       margin-left: 5%; 
+        width: 90%;
         
 
     }
@@ -325,8 +310,8 @@ input.contact:focus{
 }
 @media(max-width:576px){
     .contact1{
-        margin-left: 15%;
-        width: 70%;
+        margin-left: 5%;
+        width: 90%;
         
 
     }
